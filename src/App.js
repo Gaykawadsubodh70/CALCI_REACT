@@ -4,7 +4,8 @@ import './App.css'
 const App = () => {
     const [result, setResult] = useState("Hii");
     const handleClick = (e) => {
-        setResult(result.concat(e.target.name));
+        result!=="Error" ?  setResult(result.concat(e.target.name)) : setResult(""+e.target.name);
+        result!=="Hii" ?  setResult(result.concat(e.target.name)) : setResult(""+e.target.name);
     }
 
     const clear = () => {
@@ -48,7 +49,7 @@ const App = () => {
                     <button className="highlight" name="+" onClick={handleClick} >+</button>
                     <button name="0" onClick={handleClick} >0</button>
                     <button name="." onClick={handleClick} >.</button>
-                    <button className="highlight" name="=" onClick={calculate} >=</button>
+                    <button className="highlight" id="result" onClick={calculate} >=</button>
                 </div>
 
             </div>
