@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import './App.css';
-
+import './App.css'
 
 const App = () => {
     const [result, setResult] = useState("Hii");
+
     const handleClick = (e) => {
-        result!=="Error" ?  setResult(result.concat(e.target.name)) : setResult(""+e.target.name);
-        result!=="Hii" ?  setResult(result.concat(e.target.name)) : setResult(""+e.target.name);
+        result==="Error" || result==="Hii" ?  setResult(""+e.target.name) :  setResult(result.concat(e.target.name));
+    
     }
 
     const clear = () => {
