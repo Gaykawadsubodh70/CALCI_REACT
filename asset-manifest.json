@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/calci_react_app/static/css/main.9fe27f72.css",
-    "main.js": "/calci_react_app/static/js/main.8d941770.js",
+    "main.js": "/calci_react_app/static/js/main.eaef2829.js",
     "index.html": "/calci_react_app/index.html",
     "main.9fe27f72.css.map": "/calci_react_app/static/css/main.9fe27f72.css.map",
-    "main.8d941770.js.map": "/calci_react_app/static/js/main.8d941770.js.map"
+    "main.eaef2829.js.map": "/calci_react_app/static/js/main.eaef2829.js.map"
   },
   "entrypoints": [
     "static/css/main.9fe27f72.css",
-    "static/js/main.8d941770.js"
+    "static/js/main.eaef2829.js"
   ]
 }
